@@ -5,11 +5,11 @@ class Typekart < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tom-sitter/typekart/releases/download/v0.1.1/typekart-aarch64-apple-darwin.tar.gz"
-      sha256 "7013c1d8fd94e87b06003a3613e31b6d49386caef61d60f81467e735f4d72ba1"
+      url "https://github.com/tom-sitter/typekart/releases/download/v0.1.2/typekart-aarch64-apple-darwin.tar.gz"
+      sha256 "daae8457e95356fb9ca43e4ded65543f67d3966fcc380838231653c32921a800"
     else
-      url "https://github.com/tom-sitter/typekart/releases/download/v0.1.1/typekart-x86_64-apple-darwin.tar.gz"
-      sha256 "aa4d4e5dac077cf40781e3f13754a653c9cf5d3610e7590c7ad453ffd6b72e1e"
+      url "https://github.com/tom-sitter/typekart/releases/download/v0.1.2/typekart-x86_64-apple-darwin.tar.gz"
+      sha256 "92dc1cddab9b4b7536fffe9bcaf84c48a394c5fb9b5673b7fc8834f0e22a7281"
     end
   end
 
